@@ -1,0 +1,153 @@
+sagar@DESKTOP-UAJ0N0O MINGW64 ~/Desktop/gitdemo/gittest (master)
+$ history
+    1  git init
+    2  ls
+    3  ls -a
+    4  ls .//git/
+    5  ls ./git/
+    6  ls ./.git/
+    7  git config --get--all
+    8  git config --get-all
+    9  git config --list
+   10  git config --local -h
+   11  git config --local user sagar
+   12  git config --local user.name sagar
+   13  git config --list
+   14  git config --local user.email sagboy91@gmail.com
+   15  git config --list
+   16  cat .git/config
+   17  git config --global user.name sagar
+   18  git config --global user.email sagboy91@gmail.com
+   19  cat .git/config
+   20  ls
+   21  touch 1file
+   22  ls
+   23  ls 1*
+   24  git status
+   25  git add .
+   26  git status
+   27  git commit -m
+   28  git commit -m "1file file added"
+   29  git status
+   30  history
+   31  mkdir test
+   32  dir
+   33  git status
+   34  touch test1
+   35  git status
+   36  git status
+   37  ls
+   38  ls /c/users/
+   39  ls /c/users/sagar
+   40  ls /c/users/sagar/desktop
+   41  ls /c/users/sagar/desktop/gitdemo
+   42  dir
+   43  ls /c/users/sagar/desktop
+   44  ls /c/users/sagar/.gitconfig
+   45  cat /c/users/sagar/.gitconfig
+   46  git remote add origin https://github.com/sagboy91gmailcom/gittest1.git
+   47  git push -u origin master
+   48  cd ..
+   49  mkdir test
+   50  cd test
+   51  git clone https://github.com/sagboy91gmailcom/gittest1.git
+   52  ls
+   53  cd gittest1
+   54  dir
+   55  ls
+   56  ls -al
+   57  cd ..
+   58  rm -rf test/
+   59  cd ..
+   60  dir
+   61  rm -rf test/
+   62  dir
+   63  touch 2file
+   64  dir
+   65  rm -rf 2file/
+   66  cd gittest
+   67  touch 2file
+   68  dir
+   69  git status
+   70  git add .
+   71  git status
+   72  git commit -m "2file added"
+   73  git status
+   74  git push -u origin master
+   75  git log
+   76  ls
+   77  cat 1
+   78  cat 1file
+   79  cat 2file
+   80  echo "This is 1file and m making some changes" >1
+   81  cat 1file
+   82  cat 1file
+   83  ls
+   84  cat 1
+   85  git status
+   86  ls
+   87  echo "This is 1file and m making some changes" >1file
+   88  cat 1file
+   89  git status
+   90  git diff 1file
+   91  git add .
+   92  git status
+   93  git commit -m "1file modified"
+   94  git push
+   95  git status
+   96  git log
+   97  ?
+   98  help
+   99  git revert
+  100  git diff
+  101  git diff 1file
+  102  git log
+  103  git status
+  104  git branch
+  105  git branch dev1
+  106  git branch
+  107  git checkout dev1
+  108  git branch
+  109  ls
+  110  touch 3
+  111  ls
+  112  rename 1file 1
+  113*  1file 1
+  114  ls
+  115  git checkout master
+  116  git branch
+  117  git merge dev1
+  118  ls
+  119  git checkout dev1
+  120  git status
+  121  git add .
+  122  git commit -m "File 3 created from dev1"
+  123  git status
+  124  git checkout mster
+  125  git checkout master
+  126  ls
+  127  git merge dev1
+  128  ls
+  129  ls
+  130  git status
+  131  git add.
+  132  git add.
+  133  git add. "cahnged files name"
+  134  git add "cahnged files name"
+  135  git commit
+  136  git add 1
+  137  git add 2
+  138  ls
+  139  git status
+  140* git commit
+  141  git commit -m "files name changed"
+  142  git push
+  143  history
+  144  cat 3
+  145  echo "file 3 addded to master" > 3
+  146  git status
+  147  git add .
+  148  git commit -a "file 3 added in master"
+  149  git commit -m "file 3 added in master"
+  150  git push
+  151  history
